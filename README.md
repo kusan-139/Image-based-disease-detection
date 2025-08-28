@@ -4,10 +4,17 @@ This project detects diseases from **chest X-ray images** using pre-trained **De
 
 ## 📂 Project Structure  
 
+**Note** : Extract the "chest_xray" and "chest_xray1" then move "chest_xray1" into the "chest_xray" folder then rename the folder "chest_xray1" to "chest_xray".
+
 ```
 IMAGE BASED DISEASE DETECTION/
 │
 ├── chest_xray/                # Dataset (training / testing images)
+    |── val
+    |── train
+    |── test
+    |── chest_xray
+    |── _MACOSX
 ├── plots/                     # Saved training plots (accuracy, loss, etc.)
 ├── venv/                      # Virtual environment (dependencies installed here)
 │
@@ -54,7 +61,7 @@ python -m pip install -r requirements.txt
 
 ---
 
-##  Running the Application  
+## 🚀 Running the Application  
 
 There are **two ways to run the app** depending on your needs:  
 
@@ -91,6 +98,7 @@ This will generate a new `.h5` file that can later be loaded using `Run.bat`.
 - Use `densenet121_finetuned.h5` for **higher accuracy**.  
 - Make sure the `chest_xray` dataset is available before training.  
 - For just running the app, **you don’t need to retrain** — simply use the pre-trained `.h5` files.  
+- If you face local host is already in use just type in terminal "streamlit run app.py" and you get the available local host and you can then change it to that host.
 
 ---
 
