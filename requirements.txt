@@ -1,0 +1,10 @@
+﻿streamlit
+plotly
+matplotlib
+tensorflow==2.15
+scikit-learn
+seaborn
+numpy
+pandas
+pyinstaller
+pillow
