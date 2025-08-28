@@ -9,11 +9,11 @@ This project detects diseases from **chest X-ray images** using pre-trained **De
 ```
 IMAGE BASED DISEASE DETECTION/
 │
-├── chest_xray/                # Dataset (training / testing images)
+├── chest_xray/  (chest_xray folder)              # Dataset (training / testing images)
     |── val
     |── train
     |── test
-    |── chest_xray
+    |── chest_xray (chest_xray1 renamed to chest_xray after extracting and moved here)
     |── _MACOSX
 ├── plots/                     # Saved training plots (accuracy, loss, etc.)
 ├── venv/                      # Virtual environment (dependencies installed here)
